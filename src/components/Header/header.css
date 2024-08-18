@@ -92,7 +92,11 @@ height: 32.27px;
   .nav-item:hover .submenu {
     display: block;
   }
-  
+  .new-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .submenu a:hover {
     background-color: #f8f9fa;

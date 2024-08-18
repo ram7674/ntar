@@ -10,7 +10,7 @@ import whitearrow from "../../assets/images/whitebackarrows.png";
 import coinsfloating from "../../assets/images/coinsfloating.gif";
 import orgphone from "../../assets/images/orgphone.png";
 
-import { finance_items } from "./JsonData";
+import { features_list, finance_items } from "./JsonData";
 import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Carousel from "../../components/Carousel/Carousel.jsx";
@@ -123,7 +123,7 @@ const Home = () => {
               Your Fingertips
             </span>
             <div className="your_finance_container">
-              {finance_items.map((each) => {
+              {features_list.map((each) => {
                 return (
                   <div className="your_finance_item" id={each.title}>
                     <img

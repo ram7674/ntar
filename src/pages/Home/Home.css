@@ -181,7 +181,7 @@ text-align: left;
 
   .manScrollingCoin{
 object-fit: contain;
-width: 397px;
+width: 360px;
 transform: scaleX(-1);
 
   }
@@ -296,7 +296,7 @@ position: relative;
 }
 .manScrollingCoinLeft{
   object-fit: contain;
-  width: 397px;
+  width: 360px;
   
     }
 .your_finance_container {
@@ -547,7 +547,7 @@ display:block ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3%;
+    margin-top: 6%;
     font-family: "Youth";
   }
   .letsbutton-2 {
@@ -631,7 +631,7 @@ display:block ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3%;
+    margin-top: 6%;
     font-family: "Youth";
   }
   .letsbutton-2 {
